@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple website.html</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+
+<body style="background-color: black;">
+    <div class="navbar">
+        <div class="navlinks">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAeFJREFUSEvN1T9oFEEUBvDv7V7M7N6+vQQRxUawsxIxsUgpKhEbUYm9fxptBFFbbUWw0iqVhUWioLWmSqKIVmIZBUVQgsWxM5e9oLefXnfcnbc7koAL2+zsvt+8efN2BNt8yTbHxz8BJHe0nbspwFmjemjUJL0BkmbTuRUChwm8j1UPbinQzrJ7FLneDUpgLlZd3FIgd+4TyL0QuRAlyeOyGo5cok1rDxA4TjJhrfYojuOveZZd/iXyrCZyEuR+iKwhDJejKPo8DBsKNJvNSROG83/W+EzPRwSwKsA3ArMAtC/g7Uj1Tj8yAJAca1v7CiJTZen3jxdBMF2v19/1Ph8A8iy7CJF53+AEzseqC6UZ5NauApjxAQR4alTPVapBbu0PADs9gatG9WFV4CeAmg9A8lacpnerAt8B7PYBBFg0qnNVgRcAjvkA3aYWkRMmSV6WFnkjy26IyNB0S9AcIpf6u3tgmzrn9oTkFwBjnlkA5NsoTY+M7IPu4Ia1DwS44gsE5OnxNH1eCnB9PWkb8wEi+zyQ15HqQP/89WfXarWmg6JYBjBehhBoBp3OlJmY+Fha5N4XcmuPErgvZEOAJwjDJRZFTmCXkKcg0r3fSKdzzTQaa5W2adlsfce9j8z/DvgNvKykGWojSyAAAAAASUVORK5CYII=" />
+            <p>store</p>
+            <p>mac</p>
+            <p>ipad</p>
+            <p>iphone</p>
+            <p>watch</p>
+            <p>airpods</p>
+            <p>tv home</p>
+            <p>entertainment</p>
+            <p>acessoirs</p>
+            <p>support</p>
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAptJREFUSEu1lc2LTXEYxz/Puded83J/Z+6QMTZCwsJblCxQKBPK1kuxMCkKC8rCH0A2JIQFhaT8AbKaQkw2SIkoJbIYzcs958w993LvecwxTIa5L2Xmtz2/3/fzvH2fI0zzkWnWpy6gVCrNo1rdIyLbFVamgQi8UNX7ZLN3Xdf93Epw/wB0YMCPc7nbAjsbCChwz87nD4hIqRFoAkBV3XIUPQOWARWFa1atdsEuFD6kIuXh4YVJJnNc4CCQQ+SZ7XkbROR7PcgEQBwEtxDZB3yyoLvNmDeTPaxE0YpE9QEwV1TP2b5/oimgEkXLE9VXQDWxrLWe571olHochhuBh8C3xLIWeJ73ZbL74xmUwvCiwBGFS64xR1tpYByGd4C9qJ5yfP9MQ0Achu+BRRYsazPmdYuATUAv8NgxJs3onzOeQRyGI4Br5/MZEUlaARSLxZk5yxoABh1jZjUDBICxR0by0tWVwpoe7e/Plx0nBL46xnQ268FLgZWJZa3xPO95U3WgVCyuE8vqS8vkGLOlIaAcRWdV9SRw1THmcCuAOAhuIrJf4aJrzLHGgCBYrCJvgVpLYxoEGxB5lIo2ynqi0aLoOqoHUP0osNX2/XeTRRVF0arMmNHmjJrtmmPMoaZGSy/8tSrKonolyWbPu6776eeqGMvy+KjTe4DsL9E+u1zultmz02bXH9PfX3RwsL2cy91BdUe9qBSGUT1tiexWWJ1u2bha3dzR0TH895u66zoeGppPJrN3dKFtA1YAMarPEXlaqdUuFwqFodQHMyyrN50+gZeVJNnS3t4++Cfkv384v8z2BFgKvK/CemNM/2/IfwNSoTAMO7OQTtQSVHsc378xpYBULIqirizssvP5C1NaomaGnJISNYJMO+AHN6YAKJgRWMUAAAAASUVORK5CYII=" />
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAT9JREFUSEvtlb9KA0EQxr85m2yye41Y2AhW1r6B2mhnI76DYCU2YqNoIxZW+g5WdoKC6BNY+ATaWInFDZeLSG70QgLHsdlJToJNtlqY2e838+0/woQHTVgfIwHazFsE7ABY6xf0ICKXzTi+0QpUAZ0kORei/SFCR8a54xAkCGgzbxNw3Rc46RJdFfMZkV0Ah8WciNYb1t4PgwQBHeZnAZaFaK9p7UVZJGMuAKcA7oxzG7UAGXMXQPQtMhfH8UdZJE3T+SjP3wF8Gudm6wKkWPjrs7fTjDkY71lYafsRwIp2MpT4k3FudZBTBfQq+usod+wFDBI0C6pxX/7/Asa1auwOpgDfPVAvTsi26R6oh2oUi94ALKhKwR+GXo21i9636CtJNnOiMwBLdSACvERRdNBotW69gDqi2hr1T9YEtPgPwtmyGWE8t3gAAAAASUVORK5CYII=" />
+        </div>
+    </div>
+
+
+
+    <div class="text1">
+        <p>Buy mac or ipad with education savings.And now upto 30 sept,get Airpods with mac and Apple pencil with ipad
+        </p>
+    </div>
+
+    <div class="section1">
+
+
+        <div class="iphone">
+            <h1 class="brand">iphone16pro</h1>
+        </div>
+        <div class="built">
+            <h1>Built for Apple intelligence</h1>
+        </div>
+        <div class="imageiphone">
+            <img src="c:\Users\hp\Downloads\iphone.jpg " width="80%" >
+        </div>
+
+
+        <div class="contain">
+            <p>Available from 20 sept <br>
+                Apple intelligence starting in us english later this year
+            </p>
+        </div>
+        <br>
+        <div class="btn">
+            <button class="b1">learn more</button>
+
+            <button class="b2">Buy</button>
+
+        </div>
+    </div>
+    
+    </section>
+    <br>
+
+
+    <div class="section2">
+
+
+        <div class="iphone">
+            <h1 class="brand">iphone16</h1>
+        </div>
+        
+        <div class="built">
+            <h1>Built for Apple intelligence </h1>
+        </div>
+
+        <!-- <div class="blueiphone">
+
+        </div><br> -->
+        <br>
+
+        <div class="contain">
+            <p>Available from 20 september <br>
+                Apple intelligence starting in us english later this year
+            </p>
+        </div>
+        <br>
+        <div class="btn">
+            <button class="b1">learn more</button>
+
+            <button class="b2">Buy</button>
+
+        </div>
+    </div>
+    <section class="section3">
+    
+        <div class="imgiwatch">
+           <img src="c:\Users\hp\Downloads\img watch.jpg " >
+           
+        </div>
+            <div class="text2">
+            <p>Thinstantic classic</p>
+    </div>
+    <div class="btn">
+        <button class="b1">learn more</button>
+
+        <button class="b2"> Buy </button>
+
+    </div>
+
+            <div class=" watch">
+                <img src="iwatch.jpg" width="100%">
+                </div>
+
+    </section>
+    <section class="section4">
+
+        <div class="column1">
+        <div class="appwatch">
+<img src="promo_logo_apple_watch_ultra2__ggg2x39rsvqu_large.png" alt=""></div>
+<div class="text3" >Never finish.Never quit
+
+
+</div>
+<div class="btn">
+    <button class="b1">learn more</button>
+
+    <button class="b2"> Buy </button>
+
+</div>
+<br>
+<br>
+<div class="appultraimg">
+    <img src="https://www.apple.com/in/apple-watch-ultra-2/images/overview/hero/hero_endframe__ewae8bv9nsia_medium.jpg" alt="">
+
+</div>
+
+        </div>
+        </div>
+        <div class="column2">
+            <br><br><br><br><br>     <br><br><br><br><br>     <br><br><br><br><br>     <br><br><br><br><br>
+            <div class="text4">
+                Airpod 4
+
+            </div >
+            <div class="text5">
+                Iconic.Now supericonic <br>
+    
+
+            </div>
+            <div class="text5">
+                Avaliable with active noise canclelation
+
+            </div>
+    
+            <div class="btn">
+                <button class="b1">learn more</button>
+            
+                <button class="b2"> Buy </button>
+            
+            </div>
+            <br>
+            
+
+        </div>
+    </section> 
+    
+
+    <section class="section5">
+
+        <div class="column3">
+    <br><br><br><br><br><br><br><br><br<br><br><br><br><br><br><br><br><br>><br><br><br><br><br><br><br>
+<div class="text6" >
+ <b> Airpod max
+ </b>
+</div>
+<div class="text7">
+    Symphonic Boom
+</div>
+<div class="btn">
+    <button class="b1">learn more</button>
+
+    <button class="b2"> Buy </button>
+
+</div>
+<br>
+<br>
+
+
+        </div>
+        </div>
+        <div class="column4">
+    <br>
+            <div class="text8">
+             <b> Macbook Air  </b>
+
+            </div >
+            <div class="text9">
+supercharge by m3
+    
+
+            </div>
+            <br>
+            <div class="btn">
+                <button class="b1">learn more</button>
+            
+                <button class="b2"> Buy </button>
+            
+            </div>
+            <br>
+            
+
+        </div>
+    </section>
+    <section class="section6">
+
+        <div class="column5">
+            <br>
+<div class="text10" >
+ <b> ipad Pro
+ </b>
+</div><br>
+<div class="text11">
+    Unbelivebly thin.incredibly powerfull
+</div>
+<br><br>
+<div class="btn">
+    <button class="b1">learn more</button>
+
+    <button class="b2"> Buy </button>
+
+</div>
+<br>
+<br>
+
+
+        </div>
+        </div>
+        <div class="column6">
+    <br>
+    <br>
+            <div class="iproimg">
+             <img src="c:\Users\hp\Downloads\promo_logo_iphone_tradein__7y3gtai5az66_large.png" alt="">
+
+            </div >
+            <div class="text12">
+                Upgrade and save it easy
+
+    
+
+            </div>
+            <br>
+            <div class="btn2">
+                <button class="b3">Get  Your Estimate </button>
+
+            
+            </div>
+        </section>
+        
+            <section class="section7">
+
+<section class="section13">
+    <div class="paragraph">
+        <br>
+
+   <h6 class="style"color white>Qualified purchasers can receive promotion savings when they purchase an eligible product with promotion product at a qualifying location. Only one promotion product per eligible product per qualified purchaser. Offer is subject to availability. Subject to terms and conditions herein.
+    1. Apple Intelligence will be available in beta on all iPhone 16 models, iPhone 15 Pro and iPhone 15 Pro Max, with Siri and device language set to US English, as an iOS 18 update later this year. Some features and support for additional languages, including Indian English, French, Japanese and Spanish, will be coming over the course of the next year.
+    2. Available in two models: AirPods 4 and AirPods 4 with Active Noise Cancellation.
+    A subscription is required for Apple TV+.</h6>
+
+    <br>
+<hr>
+<br>
+
+    <div class="baracket">
+
+        <div class="xcoloum1">
+        <h6> shop and learn</h6>  
+
+      
+      <p>store</p>
+      <p>mac</p>
+      <p>ipad</p>
+      <p>ifone</p>
+      <p>watch</p>
+      <p>Airpods</p>
+      <p>tv home</p>
+      <p>airtag</p>
+      <p>Acessoirs</p>
+      <p>Giftcrads</p>
+      <h5>Apple wallet</h5>
+      <p>wallet</p>
+      </div>
+
+      <div class="xcolum2">
+        <h4>Account</h4>
+        <p>manage your apple id</p>
+        <p>Apple store Account</p>
+        <p>icloud.com</p>
+        <h4>Entertainment</h4>
+        <p>Apple one</p>
+        <p>Apple Tv+</p>
+        <p>Apple music</p>
+        <p>Apple Acrade</p>
+        <p>Apple podcast</p>
+        <p>Apple books</p>
+        <p>App store</p>
+</div>
+
+<div class="xcolumn3">
+    <h4>Apple store</h4>
+    <p>find a store</p>
+    <p>Genius bar</p>
+    <p>Today at Apple</p>
+    <p>Group Reservations</p>
+    <p>Apple camp</p>
+    <p>Apple Trade in</p>
+    <p>Way to buy</p>
+    <p>Recyle programme</p>
+    <p>oder status</p>
+    <p>shoopping help</p>
+</div>
+
+<div class="xcolumn4">
+    <h4>For Buisness</h4>
+    <p>Apple and Buisness</p>
+    <p>shop for Buisness</p>
+    <h4>For esucation</h4>
+    <p>Apple and education</p>
+    <p>shop for education</p>
+    <p>shop for univesity</p>
+    <h4>For health care</h4>
+    <p>Apple health care</p>
+    <p>mac in heealth care</p>
+    <p>Health on Apple watch</p>
+    </div>
+
+    <div class="xcolum5">
+        <h4>Apple values</h4>
+        <p>Acebility</p>
+        <p>Education</p>
+        <p>Enviorment</p>
+        <p>Privacy</p>
+        <p>supply chain</p>
+        <h4>Aout Apple  </h4>
+        <p>news room</p>
+        <p>Apple leadership</p>
+        <p>career opprtunties</p>
+        <p>invester</p>
+        <p>Ethics & Complains</p>
+        <p>Events</p>
+        <p>contact Apple</p>
+        </div>
+</div>
+<br><br><br><br>
+More ways to shop: Find an Apple Store or other retailer near you. Or call 000800 040 1966.
+<hr>
+India
+Copyright © 2024 Apple Inc. All rights reserved.Privacy Policy Terms of Use Sales Policy Legal Site Map
+
+
+      
+        
+
+
+
+
+
+</body>
+
+</html>

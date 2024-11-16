@@ -1,0 +1,131 @@
+
+
+
+.img{
+    height: 700px;
+    background-image: url("back img copy 4.webp "); 
+    background-size: cover;
+
+}
+     .logo{
+        align-items: center;
+    font-weight: bolder;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}  
+.heading1{
+    
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.heading2{
+    font-size: 1600%;
+    height: 50vh;
+
+    color: white;
+}
+.b{
+    color: white;
+    padding: 0%;
+    background-color: blue;
+    
+    border: 10px solid blue;
+    width: 140px;
+    height: 7vh;
+    
+}
+.text{
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.carimg{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    
+}
+.b2{
+    color: black;
+    background-color: white;
+    padding: 0%;
+    width: 140px;
+    height: 7vh;
+    
+
+}
+.b3{
+    color: black;
+    background-color: white;
+    padding: 0%;
+    width: 140px;
+    height: 7vh;
+    
+}
+.b4{
+    color: black;
+    background-color: white;
+    padding: 0%;
+    width: 140px;
+    height: 7vh;
+    
+}
+.ix{
+    height: 500px;
+    background-image: url("iX_3to1.webp ");
+    color:white;
+    background-size: cover;
+    font-size:25px ;
+    margin: 5px;
+    padding-left: 5%;
+   
+}
+.b5{
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0%;
+    width: 200px;
+    height: 7vh;
+    
+
+}
+.D121{
+    height: 400px;
+    background-image:url("DI21_000048047_3000_3000_3to1 (1).webp");
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+    margin: 5px;
+    padding-left: 5%;
+}
+.b6{
+    color:white;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0%;
+    width: 200px;
+    height: 7vh;
+}
+.Banner{
+    height: 500px;
+  background-image: url("iX_Banner1_3to1.webp ");
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+    margin: 5px;
+    padding-left: 7%;
+    
+}
+.homepage{
+    padding-left: 7%;
+    color: black;
+    margin: 5px;
+   
+}

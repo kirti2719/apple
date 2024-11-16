@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navlinks{
+    color: grey;
+    align-items: center;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar{
+    height: 0%;
+    width: 100%;
+}
+.text1{
+    color: white;
+     font-size: 17px;
+     align-items: center;
+     height: 8vh;
+     display: flex;
+     justify-content: center;
+}
+.brand{
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.built{
+    color: white;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.iphone{
+    height: 6vh;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+.section1{
+    height: 90%;
+    width: 100%;
+}
+.imageiphone{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.imageiphone
+{
+    z-index: -1;
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+}
+.contain{
+color: grey;
+height: 60vh;
+font-size: 24px;
+align-items: center;
+display: flex;
+justify-content: center;
+align-items:end;
+text-align: center;
+}
+.btn{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+}
+.b1{
+    color: white;
+    padding: 0%;
+    background-color: blue;
+    border-radius:18px;
+    border: 10px solid blue;
+    width: 140px;
+    height: 7vh;
+} 
+
+
+.b2{
+    color: blue;
+    border-radius:35px;
+    padding: 0%;
+    border: 3px solid rgb(144, 193, 240);
+    background-color: transparent;
+    width: 85px;
+    height: 7vh;
+    margin: 10px;
+
+}
+.section2{
+    background-image:url(hero_iphone16_avail__euwzls69btea_medium.jpg ) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height:90vh;
+   
+    
+}
+
+    
+
+.imgiwatch{
+    background-color:aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.text2{
+    color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.section3{
+    background-color: aliceblue;
+
+}
+.watch{
+    display: flex;
+    justify-content: center;
+}
+.section4{
+    display: flex;
+
+    justify-content: space-around;
+
+}
+.column2{
+    background-image: url(https://www.apple.com/v/home/br/images/promos/airpods-4/promo_airpods_4_avail__bl22kvpg6ez6_medium.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 50%;
+height: 87vh;
+}
+.column1{
+    background-color: black;
+    width: 50%;
+    height: 87vh;
+}
+.appultraimg img{
+    width: 80%;
+    height: 59vh;
+    display: flex;
+    justify-content: space-around;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+.appwatch{
+    display: flex;
+    justify-content: center;
+}
+
+.text4{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.text5{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.section5{
+    display: flex;
+    justify-content: space-around;
+}
+.column3{
+    background-image: url(../../Downloads/promo_airpodsmax_announce__2srayzjz3iay_large.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 87vh;
+}
+
+.text6{
+    font-size: 35px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+
+.text7{
+    font-size: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.column4{
+    background-image: url(../../Downloads/promo_macbook_air_m3__e43jegok3wuq_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 87vh;
+}
+.text8{
+    font-size: 35px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.text9{
+    font-size: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.section6{
+    display: flex;
+    justify-content: space-around;
+
+}
+.column6{
+    background-image:url(../../Downloads/promo_iphone_tradein__bugw15ka691e_large.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 87vh;
+ 
+}
+.column5{
+    background-image: url(../../Downloads/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 87vh;
+
+}
+.text10{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.text11{
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.text12{
+    font-size: 25px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    }
+    .b3{ 
+        color: white;
+        padding: 0%;
+        background-color: blue;
+        border-radius:18px;
+        border: 10px solid blue;
+        width: 140px;
+        height: 7vh;
+
+        
+    } 
+    .iproimg{
+        display: flex;
+        justify-content: center;
+    }
+    .section13{
+        color: white;
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .baracket{
+        display: flex;
+        justify-content: space-between;
+        
+
+        
+    } 
+    .paragraph{
+        
+        color: grey;
+        padding-left:70px ;
+        padding-right: 70px;
+    
+       
+        font-size: 20px;
+        
+    }
+    
+    
+
+      
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+    
+
+
+
+
+
+
+
+
+  

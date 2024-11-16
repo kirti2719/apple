@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+}
+.carousel-inner{
+    height: 625px;
+    /* width: 100%;
+    display: flex;
+    justify-content: center; */
+}

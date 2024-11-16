@@ -1,0 +1,274 @@
+*{
+    font-family: "Montserrat", sans-serif;
+   
+}
+.logo{
+    height: 72vh;
+    width: 100%;
+
+}
+
+
+.section1{
+    margin: 0;
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+    
+    }
+    .section1{
+        display: flex;
+        height: 100vh;
+        
+    }
+    .sidebar{
+        background: color #121212;
+        width: 340px;
+        border-radius: 1rem;
+        color: white;
+        margin: 0.7rem;
+
+        
+        
+        
+       
+    } 
+    .main-content{
+        background-color:#121212;
+        flex :1;
+        border-radius: 1rem;
+        overflow: auto;
+        padding: 0 1.5rem 0 1.5rem;
+        
+    
+
+    }
+    
+    .library{
+        background-color: #121212;
+        border-radius: 1rem;
+        
+        margin-top: 0.75rem;
+        
+    }
+    .lib-box{
+        overflow-y: auto;
+        height: 30vh;
+    }
+     ::-webkit-scrollbar{
+        background-color: transparent;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color:grey;
+    }
+ 
+
+    
+    
+    .options{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+   
+    .lib-options img{
+        display: flex;
+        height: 1.25rem;
+        width: 1.25rem;
+        
+    } 
+    .lib-options{
+        display: flex;
+        color: grey;
+        
+    }
+    .box{
+        background-color: #232323;
+        height: 8rem;
+        border-radius: 0.75rem;
+        margin: 0.5rem 0 0.5rem 0;
+        padding: 0.75rem 1rem;
+        overflow: hidden;
+        
+        
+        
+    }
+    .box-p1{
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 0.75rem 
+        
+        
+    }
+    .box-p2{
+        font-size: 0.75rem;
+        opacity: 0.9;
+        margin: 0.75rem 
+        
+        
+    }
+    .badge{
+        margin: 0.75rem 
+    }
+    .badge{
+        background-color: white;
+        border: none;
+        border-radius: 100px;
+        padding: 0.25rem 1rem;
+        font-weight: 700;
+        margin-top: 0.5rem;
+        height: 2rem;
+        width: fit-content;
+
+    }
+    .dark-badge{
+        background-color: #000;
+        color: #fff;
+        border: 100px;
+        padding: 0.25rem 1rem;
+        font-weight: 700;
+        margin-top: 0.5rem;
+        height: 2rem;
+        width: fit-content;
+        border: none;
+    }
+    .sticky-nav{
+        position: sticky;
+        top: 0;
+        /* background-color: #363535; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-size: 2rem;
+         /* border-radius: 3rem;  */
+         
+      
+        
+        
+        
+        
+        
+
+    }
+    .sticky-nav-icons{
+        margin-left: 0.75rem;
+        background: color #363535; 
+        border-radius: 2rem;
+    
+
+        position: sticky;
+        top: 0;
+        background-color: #363535;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 0;
+        font-size: 2rem;
+        border-radius: 2rem;
+    }
+    .sticky-nav-options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #121121; */
+        align-items: center;
+
+      
+    }
+    a{
+        font-size:18px ;
+        color: white;
+    }
+    .sticky-nav-options button{
+        margin-left: 1rem;
+        font-weight: 800;
+        border-radius: 100px;
+        padding: 0.25rem 1rem; 
+       
+    }
+    .nav-item{
+        margin-left: 5rem;
+    }
+    .card{
+       background-color: #232323;
+       width: 100%;
+       
+
+
+    }
+    .cards-container{
+        display: flex;
+        margin-left: 1.5rem;
+        
+    }
+    .card-img{
+        border-radius: 100%;
+        width: 90%;
+        display: inline;
+        
+    }
+    
+    
+    .cardimg{
+        width: 150px;
+        display: flex;
+        /* margin-left: 1.5rem; */
+        border-radius: 0.5rem;
+    }
+   
+   
+
+    .card-info{
+        color: grey;
+    }
+    .Albums{
+        display: flex;
+    }
+    .popular-Albums{
+        /* width:40%; */
+        display: flex;
+        justify-content: space-between;
+        /* background-color: #232323; */
+    }
+    .popular-radio{
+        width: 40%;
+        display: flex;
+       
+    }
+    .featured-charts{
+        width: 60%;
+        display: flex;
+       
+    }
+    .spotify-playlist{
+        width:60%;
+        display: flex;
+    }
+    .footer{
+        /* margin: auto; */
+       
+        display: flex;
+       justify-content: space-between;
+       margin-top: 25px;
+       margin-left: 10px;
+       margin-bottom: 30px;
+       margin-right: 10px;
+       
+    }
+    /* .spotify-playlist.butn{
+        position: absolute;
+        right: 10px;
+        top: -60px;
+        padding: 18px;
+        background-color: green;
+        border-radius: 100%;
+        opacity: 0;
+        transition: all case 0.4s;
+    }
+    .spotify-playlist.card :hover{
+        opacity: 1;
+        transform: translateY(-20px);
+    } */
+    

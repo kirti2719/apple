@@ -1,0 +1,257 @@
+
+
+.poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .img{
+    background: url(' discord_bg_image-2MutceM4--transformed (4).png ' );
+    height: 4950px;
+    color: #fff;
+  font-family:roboto,sans-serif ;
+background-size: contain;
+  
+
+}
+ .navbar{
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+   
+
+} 
+.btn{
+    text-align: center;
+     display: flex;
+    justify-content: center;
+   
+    
+    
+    } 
+.b2{
+    color:black;
+    border-radius:50px;
+    /* padding: 3%; */
+    border: 3px solid white;
+    background-color: white;
+    width: 85px;
+    height: 7vh;
+    /* margin: 10px; */
+
+}
+.Text{
+    font-size: 20px;
+    
+    color: white;
+display: flex;
+margin-left: 60px;
+}
+ /* .img1{
+  background: url('6634ceb1970de13881b1bfd4_Art.webp');
+  height: 600px;
+
+ 
+  
+}  */
+.b3{
+  color: black;
+  padding: 0%;
+  background-color: white;
+  border-radius:50px;
+  border: 10px solid white;
+  width: 260px;
+  height: 8vh;
+  margin-right: 40%;
+  font-weight: bolder;
+  /* margin-left: 200px; */
+ 
+  
+
+}
+.b4{
+  color: white;
+  padding: 0%;
+  background-color: blue;
+  border-radius:50px;
+  border: 10px solid blue;
+  width: 260px;
+  height: 8vh;
+  font-weight: bolder;
+  margin-right: 30px;
+}
+.container{
+  display: flex;
+  background: darkblue;
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(30,6,212,0.2);
+  
+}
+.emoji{
+  display: flex;
+  justify-content: right;
+}
+.left-section,.right-section{
+  flex: 1;
+  padding: 100px;
+}
+ /* .left-section{
+  
+width: 45%; 
+}  */
+video{
+  height: 200px;
+  width: 200px;
+}
+ .right-section{
+  background: linear-gradient(135deg,hsl(236, 93%, 43%));
+  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  /* position: relative;
+  color: white;
+  width: 80%;
+   */
+}
+.container1{
+  display: flex;
+  background: rgb(118, 118, 235);
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(30,6,212,0.2);
+  
+
+}
+.container2{
+  display: flex;
+  background: darkblue;
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(30,6,212,0.2);
+
+}
+.container3{
+  display: flex;
+  background: darkblue;
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(30,6,212,0.2);
+
+}
+.container4{
+  display: flex;
+  background: darkblue;
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(30,6,212,0.2);
+
+}
+.container5{
+  display: flex;
+  background: darkblue;
+  border-radius: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 4px 8px rgba(30,6,212,0.2);
+
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+}
+.last-text{
+  color: white;
+ 
+}
+.footer{
+background-color: #4A458B;
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+
+ 
+
+}
+.foot2{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
